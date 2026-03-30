@@ -625,11 +625,19 @@ function initDetailPage() {
         </div>
 
         <div class="vd-tab-panel" id="tab-finance">
-          <div id="finance-calculator" class="vd-finance-placeholder">
-            <p>Finance calculator coming soon — please contact us for finance options.</p>
+          <div id="finance-calculator" class="vd-finance-calc">
+            <div class="vd-finance-iframe-wrap">
+              <iframe src="https://pf1-prod.auf.co.uk/budget?id=VJfCw4VCnA" scrolling="no" frameborder="0" allowfullscreen></iframe>
+            </div>
             <div class="vd-finance-contact">
+              <p>Want a personalised quote? Get in touch:</p>
               <a href="tel:02082024059" class="vd-btn vd-btn--outline">Call 020 8202 4059</a>
               <a href="${waUrl}" target="_blank" rel="noopener noreferrer" class="vd-btn vd-btn--outline">WhatsApp Us</a>
+            </div>
+            <div class="vd-finance-disclaimer">
+              <p>Classic Cars (UK) Limited T/A classiccarslondon is authorised and regulated by the Financial Conduct Authority. FRN (715677)</p>
+              <p>Representative Example: Borrowing £7,500 over 4 years. Representative 19.9% APR fixed. Monthly payment £221.00. Total cost of credit £3,129. Total amount payable £10,629. Rates from 9.9% APR.</p>
+              <p>We act as a credit broker not a lender. We work with a number of carefully selected credit providers who typically will be able to offer you finance for your purchase. (Written quotations available on request). Whichever lender we introduce you to, we will typically receive a fee from them (either a fixed fee or a percentage of the amount you borrow). The lenders we work with could pay commissions at different rates. All finance is subject to status and income. Terms and conditions apply. Applicants must be 18 years or over.</p>
             </div>
           </div>
         </div>
