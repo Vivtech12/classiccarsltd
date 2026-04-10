@@ -1331,6 +1331,22 @@ h1, h2, h3 {
   color: var(--gold);
 }
 
+.vehicle-card__sold-badge {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  background: rgba(180, 30, 30, 0.92);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(220, 50, 50, 0.6);
+  padding: 0.3rem 0.85rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 2;
+}
+
 /* ── Stock Card Carousel Nav ─────────────────────────────── */
 .vehicle-card__img-link {
   display: block;
@@ -2363,6 +2379,14 @@ body.detail-page .nav {
   font-weight: 600;
   color: var(--gold);
   white-space: nowrap;
+}
+
+.vd-price-tag--sold {
+  background: rgba(180, 30, 30, 0.92);
+  color: #fff;
+  padding: 0.25rem 1rem;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  letter-spacing: 0.12em;
 }
 
 /* ── Key Specs Bar ─────────────────────────────────────────── */
